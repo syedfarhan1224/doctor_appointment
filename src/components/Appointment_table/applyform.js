@@ -193,7 +193,7 @@ const DoctorAppointmentForm = () => {
     {...register("appointmentDay", { required: "Please select a day" })}
     className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
   >
-    <option value="" disabled selected>
+    <option >
       Select a day
     </option>
     <option value="Monday">Monday</option>
